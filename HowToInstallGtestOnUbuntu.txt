@@ -1,0 +1,5 @@
+1. sudo apt-get install libgtest-dev
+2. cd /usr/src/gtest
+3. sudo cmake .
+4. sudo make
+5. sudo cp *.a /usr/lib       //step 4 generates libgtest.a and libgtest_main.a files

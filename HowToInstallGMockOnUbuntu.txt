@@ -1,0 +1,5 @@
+1. sudo apt-get install -y google-mock
+2. cd /usr/src/gmock
+3. sudo cmake .
+4. sudo make
+5. sudo cp *.a /usr/lib       //step 4 generates libgmock.a.a and libgmock_main.a files
